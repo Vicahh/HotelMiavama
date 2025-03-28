@@ -1,0 +1,277 @@
+/*header l'hotel parfait à Madagascar*/
+html
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+	font-family:"verdana",sans-serif;
+	letter-spacing: 1px;
+}
+.header{
+
+	color: #fff;
+	background:linear-gradient(to bottom ,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(image/miavana-intro-2-scaled.jpeg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 800px;
+	padding: 0 120px;
+}
+.entete{
+	color: #fff;
+	padding: 0px; 
+	overflow: hidden;
+	height:80px;
+	display: flex;
+	align-items: center;
+}
+.entete a
+{
+	text-decoration: none;
+	color: inherit;
+
+}
+.titre{
+	font-family:"Snell Roundhand",sans-serif;
+	float: left;
+	margin: 0;
+	text-transform: capitalize;
+	font-weight: 100;
+	font-style: italic;
+	height: 50px;
+}
+.nav_menu
+{
+	float: left; 
+	margin:0 50px;
+	text-align: center;	
+	position: relative;
+	height: 50px;
+
+
+}
+.nav_menu a
+{
+	display: inline-flex;
+	align-items: center;
+	height: 100%;
+	font-family: "Gulim",sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+	padding: 0 1em;
+	color: rgba(255, 255, 255, .7);
+	text-decoration: none;
+	box-sizing: border-box;
+	
+
+}
+.nav_menu a:hover{
+	color:#fff;
+	
+}
+.botton-reserve
+{
+	font-family: "Open sans",sans-serif;
+	border: 1px  solid ;
+	padding: 16px 32px;
+	float: right;
+	display: inline-block;
+	font-size: 0.7rem;
+	text-decoration: none;
+	color: inherit;
+	font-weight: 600;
+	border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 18px;
+    right: 120px;
+}
+
+.botton-reserve:hover
+{
+	transition: 0.5s;
+	color: black;
+	background: white;
+	border: none;
+}
+
+.header-titre
+{
+	font-family: serif;
+	font-size: 70px;
+	font-weight: 400;
+	margin: 15.5% 0 0 0;
+	width: 50%;
+}
+
+.para-header{
+	font-size:15px;
+	font-weight: 100;
+	width: 40%;
+	font-weight: initial ;
+	overflow-wrap:break-word ;
+	line-height:1.6;
+	vertical-align: baseline;
+	margin-bottom: 24px;
+}
+.botton-pousse{
+	font-family:"Open sans", sans-serif;
+	text-decoration: none;
+	color: #000;
+	background:white;
+	font-size: 12px; 
+	font-weight: 600;
+	padding: 18px 34px;
+	border-radius: 25px;
+	letter-spacing: 2px;
+	
+}
+.botton-pousse:hover{
+	background: rgba(255, 255, 255, .8);
+}
+
+
+/*contenu 1 decouvrez la vue de l'ile*/
+
+.contenu{
+	display: flex;
+	padding: 100px 120px;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	color: #545454;
+
+}
+.contenu1-1{
+	
+	flex-basis:40%;
+	min-width:auto;
+	padding: 0 10px 0 0;
+	padding-right: 15px;
+	line-height: 1.5;
+
+
+}
+.contenu1-1 img{
+	width: 100%;
+}
+
+.contenu1-2{
+
+	flex-basis:70%;
+	min-width: auto;
+	margin-left: 15px;
+	padding: 0 0 0 15px;
+	line-height: 1.5;
+	
+}
+.contenu1-2 img{
+	width: 100%;
+}
+.contenu1-2 h1{
+	color: #212121;
+	margin-top: 0;
+	font-size: 2.625rem;
+	font-weight: 400;
+}
+.botton1{
+	
+	padding: 18px 30px;
+	background: #2A2A2A;
+	text-align: center;
+	width: 35%;
+	border-radius: 29px;
+	font-size: 0.75rem;
+			
+}
+.contenu1-1 a
+{	
+	display: block;
+	margin-top: 30px;
+	text-decoration: none;
+	color: white;	
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.botton1:hover
+{
+	background: rgba(0, 0, 0, 0.7);
+}
+
+
+
+/*Contenu2 avec commoditer et installation*/
+.contenu2{
+	position: relative;
+	padding: 0 120px 100px 120px;
+	line-height: 1.5;
+	color: #545454;
+	box-sizing: border-box;
+}
+.contenu2-1
+{
+	width: 50%;
+
+}
+
+.contenu2-1 h1
+{
+	line-height: 1.1;
+	margin: 0 0 20px 0;
+	font-size: 2.625rem;
+	font-weight: 400;
+	color: #212121
+
+}
+.botton2-1 {
+	display: block;
+	position: absolute;
+	right: 120px;
+	top: 105px;
+	padding: 18px 30px;
+	background: #2A2A2A;
+	text-align: center;
+	width: 7%;
+	border-radius: 29px;
+	font-size: 0.75rem;
+
+}
+
+.botton2-1 a{
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
+
+.contenu2-2{
+	display: flex;
+	margin-top: 40px;
+}
+.contenu2-image{
+	justify-content: space-between;
+}
+.contenu2-2 h2{
+	font-size: 1.75rem;
+    font-family: 'DM Serif Display',serif;
+    line-height: 1.1;
+    color: #212121;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+z

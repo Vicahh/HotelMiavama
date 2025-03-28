@@ -1,0 +1,118 @@
+
+html
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+	font-family:"verdana",sans-serif;
+	letter-spacing: 1px;
+}
+
+.header{
+
+	color: #fff;
+	background:linear-gradient(to bottom ,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../image/Heli-fishing.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 800px;
+	padding: 0 120px;
+}
+.entete{
+	color: #fff;
+	padding: 0px; 
+	overflow: hidden;
+	height:80px;
+	display: flex;
+	align-items: center;
+}
+.entete a
+{
+	text-decoration: none;
+	color: inherit;
+
+}
+.titre{
+	font-family:"Snell Roundhand",sans-serif;
+	float: left;
+	margin: 0;
+	text-transform: capitalize;
+	font-weight: 100;
+	font-style: italic;
+	height: 50px;
+}
+.nav_menu
+{
+	float: left; 
+	margin:0 50px;
+	text-align: center;	
+	position: relative;
+	height: 50px;
+
+
+}
+.nav_menu a
+{
+	display: inline-flex;
+	align-items: center;
+	height: 100%;
+	font-family: "Gulim",sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+	padding: 0 1em;
+	color: rgba(255, 255, 255, .7);
+	text-decoration: none;
+	
+
+}
+.nav_menu a:hover{
+	color:#fff;
+	
+}
+.botton-reserve
+{
+	font-family: "Open sans",sans-serif;
+	border: 1px  solid ;
+	padding: 16px 32px;
+	float: right;
+	display: inline-block;
+	font-size: 0.7rem;
+	text-decoration: none;
+	color: inherit;
+	font-weight: 600;
+	border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 18px;
+    right: 120px;
+}
+
+.botton-reserve:hover
+{
+	color: black;
+	background: white;
+	border: none;
+}
+
+.header-titre
+{
+	font-family: serif;
+	font-size: 70px;
+	font-weight: 400;
+	margin: 20.5% 0 0 0;
+	width: 50%;
+}
+
+.para-header{
+	font-size:17px;
+	width: 50%;
+	font-weight: initial ;
+	overflow-wrap:break-word ;
+	line-height:1.4;
+	vertical-align: baseline;
+	margin-bottom: 24px;
+}
